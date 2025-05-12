@@ -1,4 +1,3 @@
-# ExoQuery with JDBC
-Trivial example using ExoQuery with a JDBC database.
+# LambdaConf 2025 Code Samples
 
-See `JdbcExample.kt` in the src directory. Use `application.conf` and `makeLocalPostgresController` to use a local database.
+[Part1_GiantQuerySql.kt](src/main/kotlin/io/exoquery/example/Part1_GiantQuerySql.kt)
