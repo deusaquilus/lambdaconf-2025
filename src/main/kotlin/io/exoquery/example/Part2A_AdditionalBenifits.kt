@@ -3,12 +3,7 @@ package io.exoquery.example
 import io.exoquery.*
 import io.exoquery.annotation.CapturedFunction
 
-fun main() {
-  //@CapturedFunction
-  //fun Person.joinAddresses() = capture {
-  //  internal.flatJoin(Table<Address>()) { a -> a.ownerId ==  this@joinAddresses.id }
-  //}
-
+fun fullJoin() {
   val query = capture.select {
     val p = from(Table<Person>())
     val a = from(Table<Address>())
@@ -17,5 +12,8 @@ fun main() {
   }
 
   query.buildFor.Postgres()
+}
 
+fun main() {
+  fullJoin()
 }

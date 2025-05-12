@@ -4,8 +4,6 @@ import io.exoquery.*
 
 object Part1A_conditional {
 
-  data class ClientData(val alias: String, val orderPermission: String)
-
   val c = capture {
     Table<Pair<Client, Accounts>>().map { (c, a) ->
       Pair(
