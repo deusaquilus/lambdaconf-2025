@@ -1,5 +1,7 @@
 # LambdaConf 2025 Code Samples
 
+[ExoQuery.pdf](ExoQuery.pdf) - Presentation Slides
+
 [Part1and6_GiantQuery.kt](src/main/kotlin/io/exoquery/example/Part1and6_GiantQuery.kt) - The gigantic sql query example that I start and end the presentation with.
 
 [Part1A_GiantQueryExposed.kt](src/main/kotlin/io/exoquery/example/exposed/Part1A_GiantQueryExposed.kt) - My attempt to get Exposed to synthesize the giant query
